@@ -1,0 +1,18 @@
+.greenhouse-job-list {
+    margin: 20px 0;
+}
+
+.greenhouse-job-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.greenhouse-job-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.greenhouse-job-list .section-header.font-primary {
+    font-size: 30px;
+    font-weight: 600;
+}
