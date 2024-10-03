@@ -51,6 +51,7 @@ Admin Panel Options ⚙️
 Development 💻
 
 The plugin is designed to be developer-friendly. It uses standard WordPress hooks and the Greenhouse API for fetching data. All caching is managed with WordPress transients to optimize the API's performance.
+
 File Structure 🗂️
 
 greenhouse-integration/
