@@ -3,6 +3,7 @@
 Version: 1.2
 Author: Tomás Vilas
 License: GPL-3.0
+
 Overview 📄
 
 The Greenhouse Job Board WordPress Plugin integrates seamlessly with the Greenhouse API, allowing you to fetch and display job postings from your Greenhouse account directly on your WordPress site. Designed with flexibility in mind, this plugin provides an easy-to-use solution to manage job listings, offering customization options and full control over the appearance and functionality via WPBakery integration.
