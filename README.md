@@ -54,23 +54,16 @@ The plugin is designed to be developer-friendly. It uses standard WordPress hook
 
 File Structure 🗂️
 
-greenhouse-integration/
+    greenhouse-integration/
+    ├── includes/
+    │   ├── admin-page.php         # Handles admin settings and cache management
+    │   ├── api-fetch.php          # Fetches job listings from the Greenhouse API
+    │   ├── shortcode.php          # Defines the [greenhouse_jobs] shortcode
+    │   ├── wpbakery-block.php     # WPBakery integration for drag-and-drop functionality
+    ├── css/
+    │   └── greenhouse-styles.css  # Plugin-specific styles
+    └── greenhouse-job-board.php   # Main plugin file
 
-├── includes/
-
-│   ├── admin-page.php         # Handles admin settings and cache management
-
-│   ├── api-fetch.php          # Fetches job listings from the Greenhouse API
-
-│   ├── shortcode.php          # Defines the [greenhouse_jobs] shortcode
-
-│   ├── wpbakery-block.php     # WPBakery integration for drag-and-drop functionality
-
-├── css/
-
-│   └── greenhouse-styles.css  # Plugin-specific styles
-
-└── greenhouse-job-board.php   # Main plugin file
 
 License 📜
 
